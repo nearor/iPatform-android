@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_76c4ecbc1f2c0c7ae4e50e2b2965440e8a7ea886.jar" />
+    </item>
+    <item
+        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/iPatform-android/common/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6d422204c9bf4c3cbfbc39d590bf97d50eb87ff4">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/iPatform-android-common-unspecified_297577dcefe1f7d0afe610ec16d75c25710eef1f.jar" />
+    </item>
+    <item
+        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/iPatform-android/framework/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e91565b0a0b78e65c872814f52ecbc8bdd44003">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/iPatform-android-framework-unspecified_e5a51b44ae4505235ac060bbb39983f3c21a6b4c.jar" />
+    </item>
+    <item
+        jar="/Users/Nearor/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/gson-2.4_9c6922696a4f7cd740a8480545d7242c3e40bdf8.jar" />
+    </item>
+    <item
+        jar="/Users/Nearor/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.4/dd9eeb557650c4ad7394df23f0f5cf27a7cfc697/universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.4_4a892cdb54df7922cac73bf2d6fb6cdfe91cf23c.jar" />
+    </item>
+    <item
+        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_09ccfdf71c1eae224459072c5db5b427129e721e.jar" />
+    </item>
+    <item
+        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_176092a4d7744c72642f3fd251ed272138d28475.jar" />
+    </item>
+    <item
+        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_58bc9b01bd1e0dcab4fbd22310e48857107316ac.jar" />
+    </item>
+    <item
+        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_4c8dbbd3c6da07b4302313e86f903e405ff8b5a1.jar" />
+    </item>
+    <item
+        jar="/Users/Nearor/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_7f7f80592900c63e62c50a0b4efd6b40bff0efb0.jar" />
+    </item>
+    <item
+        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/iPatform-android/commonui/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a00f4cf5bec42be3b8bbc7f48fda6b59ac7cadb2">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/iPatform-android-commonui-unspecified_ce3aa62bbb5d73e1f9c359ffd9e0eff289a711e2.jar" />
+    </item>
+
+</items>

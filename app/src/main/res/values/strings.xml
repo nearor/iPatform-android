@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">My RoleApp</string>
+    <string name="app_name">项目经理</string>
+
+    <!-- pm login-->
+    <string name="pm_login_title">我爱宅</string>
+    <string name="pm_login_des">您好,欢迎来到我爱宅设计师/项目经理端</string>
+    <string name="pm_login_phone">请输入您的手机号</string>
+    <string name="pm_login_password">请输入您的密码</string>
+    <string name="pm_login">登录</string>
+
 </resources>

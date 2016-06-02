@@ -1,1 +1,1 @@
-include ':app', ':framwork', ':commonui'
+include ':app', ':framework', ':commonui', ':common'
