@@ -1,0 +1,14 @@
+package com.nearor.framwork.secure;
+
+public class Sec {
+	/**
+	 * for passport 文件读取 需要使用CertificateFactory
+	 */
+	public static final String PUBLIC_SECKEY_FOR_PASSPORT = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDXQG8rnxhslm+2f7Epu3bB0inrnCaTHhUQCYE+2X+qWQgcpn+Hvwyks3A67mvkIcyvV0ED3HFDf+ANoMWV1Ex56dKqOmSUmjrk7s5cjQeiIsxX7Q3hSzO61/kLpKNH+NE6iAPpm96Fg15rCjbm+5rR96DhLNG7zt2JgOd2o1wXkQIDAQAB";
+	 
+	/**
+	 * for all api 文件读取 需要使用CertificateFactory
+	 */
+	public static final String PRIVATE_KEY_FOR_API_SIGN = "MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBANdAbyufGGyWb7Z/sSm7dsHSKeucJpMeFRAJgT7Zf6pZCBymf4e/DKSzcDrua+QhzK9XQQPccUN/4A2gxZXUTHnp0qo6ZJSaOuTuzlyNB6IizFftDeFLM7rX+Quko0f40TqIA+mb3oWDXmsKNub7mtH3oOEs0bvO3YmA53ajXBeRAgMBAAECgYEAwXj+83xqnZ+SBb08ZkBDe+8FEuslmPJfCC0i6HTiVSD1M5tL4Z2NJbTLWYzXmRPwQGHy5B+OBpe3sUgikItjuEKR4PRAd2vtkTErnbPxwautgtgDyYLxn6IfuQqTYbxso2yZTO7CCb7QhL2gRfpfhYgfKaoH/4MC48FSEmB+xmECQQDxozXVZ2bqETK1XGECIYqWnWx64UUEA+K4pvbIU+MBwpzQyk9CKKJ5q00x+SuJT6/Jov+a3dSOk4Qyrzl9Hz2tAkEA5Au7vrnNCsnCgD7ItMCSM0LJdFGCX4//z22jXsow5KwajQXqLQEYTmp/l5q6R2kGa2eyOrSuWaH6gmf1Tx519QJAFEV27LJCBfzvXhuj38PkloIaaaygV5fj203WgjPXZXxoH3P5djlmeAKQ9VJL/rb6rlXIT7uwa02g14evsPl/+QJBALb2pwImBlmCeNf2B4fl/Sa9je4SO3y6hu6As5Oou0OsxXyh4zmKaFr53TbggFYs8GaaAwhQ0JW/fMLF764z7UUCQDKhKa4GuMpdEq0SDzXAWcSGydq315B5KAe+qfCS1kv5aPn04nKwv09B1C3Tbu6UWjf52kK//kZ63n/Uv4HWwDs=";
+
+}

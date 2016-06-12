@@ -2,7 +2,7 @@ package com.nearor.myroleapp;
 
 import android.os.Bundle;
 
-import com.nearor.common.route.RoleAppModuleMap;
+import com.nearor.common.module.RoleAppModuleMap;
 import com.nearor.commonui.ativity.AppActivity;
 import com.nearor.framwork.preference.GlobalValue;
 
@@ -19,7 +19,7 @@ public class SplashActivity extends AppActivity {
         }
 
 
-
+        finish();
     }
 
 

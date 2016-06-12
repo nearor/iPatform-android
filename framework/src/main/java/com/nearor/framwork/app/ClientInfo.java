@@ -16,7 +16,14 @@ import com.nearor.framwork.network.NetworkUtils;
 public class ClientInfo {
 
 
+    public static final String TRADER = "androidphone";
+    // 设计师端 TRADER_NAME = "android_common_idesigner"
+    public static final String TRADER_NAME = "android_common_ihome";
+
     private transient String clientInfoString = null;
+
+    private String trader;
+    private String traderName;
 
     /**
      * 客户端版本号：x.x.x
@@ -54,10 +61,17 @@ public class ClientInfo {
         return Holder.INSTANCE;
     }
 
+    private ClientInfo(){
+        this.clientSystem = getClientSystemDetail();
+        this.clientVersion = Build.VERSION.RELEASE;
+        this.phoneType = getClientSystemDetail();
+
+        this.trader = ClientInfo.TRADER;
+        this.traderName = ClientInfo.TRADER_NAME;
+    }
 
     public void initWithContext(Context ctx){
         this.clientAppVersion = getClientAppVersion(ctx);
-        //this.deviceCode = DeviceId
         this.deviceCode = DeviceId.getUUid(ctx);
         this.netType = NetworkUtils.getNetTypeName(ctx);
 
@@ -69,7 +83,6 @@ public class ClientInfo {
     public String getClientAppVersion(){
         return clientAppVersion;
     }
-
     private String getClientAppVersion(Context ctx){
         String vName = "";
         try {
@@ -92,11 +105,26 @@ public class ClientInfo {
         return deviceCode;
     }
 
+    public String getTrader(){
+        return  trader;
+    }
+
+    public String getTraderName(){
+        return  traderName;
+    }
+
     private void updataJSONString(){
         this.clientInfoString = new Gson().toJson(this);
     }
 
+    @Override
+    public String toString() {
+        return clientInfoString;
+    }
 
+    public String getPhoneType() {
+        return phoneType;
+    }
 
 
 

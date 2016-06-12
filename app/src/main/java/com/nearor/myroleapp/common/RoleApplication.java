@@ -3,7 +3,9 @@ package com.nearor.myroleapp.common;
 import android.app.Activity;
 
 import com.nearor.common.CommonApplication;
-
+import com.nearor.common.api.PassportService;
+import com.nearor.common.module.ModuleHelper;
+import com.nearor.framwork.preference.GlobalValue;
 
 
 /**
@@ -12,17 +14,17 @@ import com.nearor.common.CommonApplication;
  */
 public class RoleApplication extends CommonApplication {
 
-    private static final String BUGTAGS_APPKEY = "41fe6eb27d2dc3474372bfa528bc1588";
+   // private static final String BUGTAGS_APPKEY = "41fe6eb27d2dc3474372bfa528bc1588";
 
-  //  private PassportService mPassportService;
+    private PassportService mPassportService;
 
     @Override
     public void onCreate() {
         super.onCreate();
-      //  GlobalValue.getInstance().setIsRoleApp(true);
-     //   ModuleHelper.roleAppInit(this);
+      GlobalValue.getInstance().setIsRoleApp(true);
+       ModuleHelper.roleAppinit(this);
 
-     //   mPassportService = new PassportService(null);
+     mPassportService = new PassportService(null);
     }
 
     @Override
@@ -34,8 +36,8 @@ public class RoleApplication extends CommonApplication {
 //        }
     }
 
-    @Override
-    public String bugtagsAppKey() {
-        return BUGTAGS_APPKEY;
-    }
+//    @Override
+//    public String bugtagsAppKey() {
+//        return BUGTAGS_APPKEY;
+//    }
 }

@@ -54,4 +54,30 @@ public class GlobalValue extends ValueObject{
         this.userRole = userRole;
         Storage.sharedInstance().add(USER_ROLE_PREFERENCE_KET,userRole);
     }
+
+    public String getOrderId() {
+        return orderId;
+    }
+
+    public void setOrderId(String orderId) {
+        this.orderId = orderId;
+    }
+
+    public static boolean isPM() {
+        return GlobalValue.getInstance().getUserRole() != null && GlobalValue.getInstance().getUserRole().equalsIgnoreCase("6");
+    }
+
+    public boolean isRoleApp() {
+        return isRoleApp;
+    }
+
+    public void setIsRoleApp(boolean isRoleApp) {
+        this.isRoleApp = isRoleApp;
+    }
+
+    public void cleanLoginState() {
+        getInstance().setUserToken(null);
+        //getInstance().setImToken(null);
+        getInstance().setOrderId(null);
+    }
 }

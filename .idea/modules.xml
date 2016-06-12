@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/commonui/commonui.iml" filepath="$PROJECT_DIR$/commonui/commonui.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/framework/framwork.iml" filepath="$PROJECT_DIR$/framework/framwork.iml" />
       <module fileurl="file://$PROJECT_DIR$/iPatform-android.iml" filepath="$PROJECT_DIR$/iPatform-android.iml" />
     </modules>
   </component>

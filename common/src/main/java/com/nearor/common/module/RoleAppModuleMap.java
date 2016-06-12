@@ -1,4 +1,4 @@
-package com.nearor.common.route;
+package com.nearor.common.module;
 
 
 import com.nearor.framwork.util.Lg;
@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ *
  * Created by Nearor on 6/1/16.
  */
 public class RoleAppModuleMap implements IModuleMap{
@@ -16,6 +17,7 @@ public class RoleAppModuleMap implements IModuleMap{
     private static final String TAG = Lg.makeLogTag(RoleAppModuleMap.class);
 
     public static final String MODULE_NAME_LOGIN = "login";
+    public static final String MODULE_NAME_HOME_PM = "home_pm";
 
     private List<Module> mModules;
     private Map<String,Module> mModuleMap = new HashMap<> ();
@@ -25,7 +27,7 @@ public class RoleAppModuleMap implements IModuleMap{
     }
 
     private static class Holder{
-       static RoleAppModuleMap sInstance = new RoleAppModuleMap();
+      private static final RoleAppModuleMap sInstance = new RoleAppModuleMap();
     }
 
     public static RoleAppModuleMap getInstance(){
@@ -53,10 +55,11 @@ public class RoleAppModuleMap implements IModuleMap{
     }
 
     private enum RoleAppModule{
-        LOGIN(MODULE_NAME_LOGIN,"com.nearor.myroleapp.login.LoginActivity");
+        LOGIN(MODULE_NAME_LOGIN,"com.nearor.myroleapp.login.LoginActivity"),
+        HOME_PM(MODULE_NAME_HOME_PM,"com.nearor.myroleapp.pm.MainActivity");
 
-        private String moduleName;
-        private String moduleType;
+        private final String moduleName;
+        private final String moduleType;
 
         RoleAppModule(String moduleName, String moduleType) {
             this.moduleName = moduleName;

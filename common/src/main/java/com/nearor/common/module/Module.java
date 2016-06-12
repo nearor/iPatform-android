@@ -1,4 +1,4 @@
-package com.nearor.common.route;
+package com.nearor.common.module;
 
 
 import com.nearor.framwork.ValueObject;
@@ -10,6 +10,7 @@ public class Module extends ValueObject {
 
     private String name;
     private String path;
+    private ModuleType type;
 
     private String descripation;
 
@@ -31,5 +32,12 @@ public class Module extends ValueObject {
         return descripation;
     }
 
+    public ModuleType getType() {
+        return type;
+    }
+
+    public enum ModuleType{
+        ACTIVITY,FRAGMENT
+    }
 
 }

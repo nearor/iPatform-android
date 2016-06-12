@@ -1,4 +1,4 @@
-package com.nearor.common.route;
+package com.nearor.common.module;
 
 
 import java.util.List;
