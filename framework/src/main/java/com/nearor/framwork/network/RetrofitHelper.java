@@ -1,14 +1,15 @@
 package com.nearor.framwork.network;
 
-import com.squareup.okhttp.OkHttpClient;
-import com.squareup.okhttp.Request;
+
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 
-import retrofit.Retrofit;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import retrofit2.Retrofit;
 
 /**
  * @author nearor.
@@ -27,14 +28,17 @@ public class RetrofitHelper {
 
     public void init(String baseURL, APIResponseErrorHandler apiResponseErrorHandler) {
         // 设置 HTTP client
-        OkHttpClient okHttpClient = new OkHttpClient();
-        okHttpClient.setConnectTimeout(TIME_OUT_SECONDS, TimeUnit.SECONDS);
-        okHttpClient.interceptors().add(new APIRequestInterceptor());
-
         // 设置 response 拦截器
+
         APIResponseInterceptor apiResponseInterceptor = new APIResponseInterceptor();
         apiResponseInterceptor.setApiResponseErrorHandler(apiResponseErrorHandler);
-        okHttpClient.interceptors().add(apiResponseInterceptor);
+        OkHttpClient okHttpClient = new OkHttpClient()
+                .newBuilder()
+                .addInterceptor(new APIRequestInterceptor())
+                .addInterceptor(apiResponseInterceptor)
+                .connectTimeout(TIME_OUT_SECONDS, TimeUnit.SECONDS)
+                .build();
+
 
         retrofit = new Retrofit.Builder()
                 .baseUrl(baseURL)

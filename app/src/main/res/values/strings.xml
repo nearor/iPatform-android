@@ -8,4 +8,25 @@
     <string name="pm_login_password">请输入您的密码</string>
     <string name="pm_login">登录</string>
 
+    <!-- pm -->
+    <string name="pm_home_title">我爱宅-工作台</string>
+    <string name="pm_me_title">个人中心</string>
+    <string name="pm_im_title">对话</string>
+    <string name="pm_home_button_title">首页</string>
+    <string name="pm_im_button_title">对话</string>
+    <string name="pm_me_button_title">我的</string>
+    <string name="pm_acceptanceupload_bar_text">恭喜您完成施工, 辛苦了~\n为了让业主更好的了解施工队的装修成果\n请您对照下列标准, 在施工现场相应的地方拍照~</string>
+    <!-- pm end -->
+
+    <!-- pm me -->
+    <string name="pm_me_icon">头像</string>
+    <string name="pm_me_name">姓名</string>
+    <string name="pm_me_phone_number">手机号</string>
+    <string name="pm_me_set">设置</string>
+
+
+
+    <!-- pm me end -->
+
+
 </resources>

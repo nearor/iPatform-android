@@ -2,12 +2,13 @@ package com.nearor.framwork.network;
 
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.TypeAdapter;
-import com.squareup.okhttp.ResponseBody;
+
 
 
 import java.io.IOException;
 
-import retrofit.Converter;
+import okhttp3.ResponseBody;
+import retrofit2.Converter;
 
 
 /**

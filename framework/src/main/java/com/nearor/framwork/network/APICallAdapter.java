@@ -8,14 +8,14 @@ import com.nearor.framwork.concurency.MainThreadExecutor;
 import java.io.IOException;
 import java.util.concurrent.Executor;
 
-import retrofit.Call;
-import retrofit.Callback;
-import retrofit.Response;
-import retrofit.Retrofit;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
 
 
 /**
- * {@link retrofit.Call} to {@link APICall}
+ * {@link retrofit2.Call} to {@link APICall}
  * Created by nearor on 1/31/16.
  */
 class APICallAdapter<T> implements APICall<T> {
@@ -41,7 +41,7 @@ class APICallAdapter<T> implements APICall<T> {
 
         call.enqueue(new Callback<T>() {
             @Override
-            public void onResponse(final Response<T> response, Retrofit retrofit) {
+            public void onResponse(Call<T> call, final Response<T> response) {
                 mCallBackExecutor.execute(new Runnable() {
                     @Override
                     public void run() {
@@ -59,7 +59,7 @@ class APICallAdapter<T> implements APICall<T> {
             }
 
             @Override
-            public void onFailure(final Throwable t) {
+            public void onFailure(Call<T> call, final Throwable t) {
                 mCallBackExecutor.execute(new Runnable() {
                     @Override
                     public void run() {

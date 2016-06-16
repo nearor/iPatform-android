@@ -2,13 +2,14 @@ package com.nearor.framwork.network;
 
 import com.google.gson.Gson;
 import com.google.gson.TypeAdapter;
-import com.squareup.okhttp.MediaType;
-import com.squareup.okhttp.RequestBody;
+
 
 
 import java.io.IOException;
 
-import retrofit.Converter;
+import okhttp3.MediaType;
+import okhttp3.RequestBody;
+import retrofit2.Converter;
 
 
 /**

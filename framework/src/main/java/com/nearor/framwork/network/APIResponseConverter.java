@@ -9,14 +9,15 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParseException;
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.TypeAdapter;
-import com.squareup.okhttp.ResponseBody;
+
 
 
 import java.io.IOException;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Type;
 
-import retrofit.Converter;
+import okhttp3.ResponseBody;
+import retrofit2.Converter;
 
 
 /**

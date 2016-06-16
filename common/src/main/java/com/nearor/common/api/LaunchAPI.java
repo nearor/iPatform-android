@@ -5,7 +5,7 @@ import com.nearor.common.api.entity.LaunchData;
 import com.nearor.framwork.network.APICall;
 import com.nearor.framwork.network.SignatureKey;
 
-import retrofit.http.GET;
+import retrofit2.http.GET;
 
 /**
  * @author vectxi@gmail.com on 2/17/16.

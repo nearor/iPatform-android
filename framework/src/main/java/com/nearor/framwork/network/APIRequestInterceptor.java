@@ -7,11 +7,7 @@ import com.nearor.framwork.app.ClientInfo;
 import com.nearor.framwork.preference.GlobalValue;
 import com.nearor.framwork.secure.DigestUtil;
 import com.nearor.framwork.util.Lg;
-import com.squareup.okhttp.HttpUrl;
-import com.squareup.okhttp.Interceptor;
-import com.squareup.okhttp.Request;
-import com.squareup.okhttp.RequestBody;
-import com.squareup.okhttp.Response;
+
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -25,6 +21,11 @@ import java.util.Set;
 import java.util.TreeMap;
 
 
+import okhttp3.HttpUrl;
+import okhttp3.Interceptor;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
 import okio.Buffer;
 
 /**
@@ -48,7 +49,7 @@ class APIRequestInterceptor implements Interceptor {
             // 原始参数加签名
             if (!parmas.containsKey("needSignature") || parmas.get("needSignature").equalsIgnoreCase("true")) {
                 Map<String, String> securParams = secureParams(parmas);
-                HttpUrl.Builder urlBuilder = request.httpUrl().newBuilder();
+                HttpUrl.Builder urlBuilder = request.url().newBuilder();
                 for (Map.Entry<String, String> entry : securParams.entrySet()) {
                     urlBuilder.setQueryParameter(entry.getKey(), entry.getValue());
                 }
@@ -93,9 +94,9 @@ class APIRequestInterceptor implements Interceptor {
         }
 
         Map<String, String> params = new HashMap<String, String>();
-        Set<String> names = request.httpUrl().queryParameterNames();
+        Set<String> names = request.url().queryParameterNames();
         for (String name: names) {
-            params.put(name, request.httpUrl().queryParameter(name));
+            params.put(name, request.url().queryParameter(name));
         }
         return params;
     }

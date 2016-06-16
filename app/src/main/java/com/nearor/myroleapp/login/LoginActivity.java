@@ -105,10 +105,8 @@ public class LoginActivity extends AppActivity {
                         Module targetModule ;
                         if (GlobalValue.isPM()) {
                             targetModule = RoleAppModuleMap.getInstance().getModule(RoleAppModuleMap.MODULE_NAME_HOME_PM);
-                            Lg.d(TAG,"PM");
                         } else {
                             targetModule = RoleAppModuleMap.getInstance().getModule(RoleAppModuleMap.MODULE_NAME_HOME_PM);
-                            Lg.d(TAG,"PM");
                         }
 
                         Map<String, String> params = getModuleParams();

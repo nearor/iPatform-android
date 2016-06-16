@@ -24,7 +24,7 @@ public abstract class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-     //   SimpleImageLoader.init(this);
+        SimpleImageLoader.init(this);
         ClientInfo.getInstance().initWithContext(this);
 
         sharedInstance = this;

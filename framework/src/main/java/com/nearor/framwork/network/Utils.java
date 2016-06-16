@@ -58,7 +58,7 @@ class Utils {
         final Type responseType = getSingleParameterUpperBound((ParameterizedType) returnType);
 
         // Ensure the Call response type is not Response, we automatically deliver the Response object.
-        if (getRawType(responseType) == retrofit.Response.class) {
+        if (getRawType(responseType) == retrofit2.Response.class) {
             throw new IllegalArgumentException(
                     "Call<T> cannot use Response as its generic parameter. "
                             + "Specify the response body type only (e.g., Call<TweetResponse>).");

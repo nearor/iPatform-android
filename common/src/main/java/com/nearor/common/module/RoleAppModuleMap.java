@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.StringTokenizer;
 
 /**
  *
@@ -18,6 +19,8 @@ public class RoleAppModuleMap implements IModuleMap{
 
     public static final String MODULE_NAME_LOGIN = "login";
     public static final String MODULE_NAME_HOME_PM = "home_pm";
+    public static final String MODULE_NAME_IM_PM = "im_pm";
+    public static final String MODULE_NAME_ME_PM = "me_pm";
 
     private List<Module> mModules;
     private Map<String,Module> mModuleMap = new HashMap<> ();
@@ -57,6 +60,7 @@ public class RoleAppModuleMap implements IModuleMap{
     private enum RoleAppModule{
         LOGIN(MODULE_NAME_LOGIN,"com.nearor.myroleapp.login.LoginActivity"),
         HOME_PM(MODULE_NAME_HOME_PM,"com.nearor.myroleapp.pm.MainActivity");
+
 
         private final String moduleName;
         private final String moduleType;

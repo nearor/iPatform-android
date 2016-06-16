@@ -1,7 +1,7 @@
 package com.nearor.framwork.network;
 
 
-import retrofit.Call;
+import retrofit2.Call;
 
 /**
  * 实现 {@link Call} 和 Activity 或者 Fragment 生命周期的绑定

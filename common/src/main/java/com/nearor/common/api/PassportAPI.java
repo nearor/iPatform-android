@@ -4,9 +4,9 @@ import com.nearor.common.api.entity.LoginResponse;
 import com.nearor.common.api.entity.UnionLoginResponse;
 import com.nearor.framwork.network.APICall;
 
-import retrofit.http.Field;
-import retrofit.http.FormUrlEncoded;
-import retrofit.http.POST;
+import retrofit2.http.Field;
+import retrofit2.http.FormUrlEncoded;
+import retrofit2.http.POST;
 
 /**
  * Created by Nearor on 16/6/6.

@@ -2,7 +2,7 @@ package com.nearor.common.api;
 
 import com.nearor.framwork.network.ICallManager;
 
-import retrofit.Call;
+import retrofit2.Call;
 
 /**
  * Created by Nearor on 16/6/6.

@@ -16,8 +16,13 @@ public class SplashActivity extends AppActivity {
 
         if(!GlobalValue.getInstance().isLogin()){
             startModule(RoleAppModuleMap.MODULE_NAME_LOGIN);
+        }else {
+            if(GlobalValue.isPM()){
+                startModule(RoleAppModuleMap.MODULE_NAME_HOME_PM);
+            }else {
+                startModule(RoleAppModuleMap.MODULE_NAME_HOME_PM);
+            }
         }
-
 
         finish();
     }

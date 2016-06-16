@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import retrofit.Call;
+import retrofit2.Call;
 
 /**
  * Created by Nearor on 6/1/16.
