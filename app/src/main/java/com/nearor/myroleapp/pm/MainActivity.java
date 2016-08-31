@@ -3,6 +3,7 @@ package com.nearor.myroleapp.pm;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.KeyEvent;
@@ -21,6 +22,8 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class MainActivity extends AppActivity implements View.OnClickListener {
+
+    public static final String EXTRA_EXIT = "extra_exit";
 
     private HomeFragment mHomeFragment;
     private ImFragment mImFragment;
@@ -67,6 +70,16 @@ public class MainActivity extends AppActivity implements View.OnClickListener {
     @Override
     protected void onStop() {
         super.onStop();
+    }
+
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        boolean shouldExit = intent.getBooleanExtra(EXTRA_EXIT,false);
+        if(shouldExit){
+            finish();
+        }
     }
 
     @Override
@@ -168,8 +181,9 @@ public class MainActivity extends AppActivity implements View.OnClickListener {
                 }
             },2000);
         }else {
-            finish();
-            System.exit(0);
+            Intent startMainIntent = new Intent(this, MainActivity.class);
+            startMainIntent.putExtra(MainActivity.EXTRA_EXIT, true);
+            startActivity(startMainIntent);
         }
     }
 }

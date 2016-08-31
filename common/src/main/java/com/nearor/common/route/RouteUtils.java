@@ -21,7 +21,7 @@ import java.util.Map;
  */
 public class RouteUtils {
 
-    public static final String SCHEME = "hj";
+    public static final String SCHEME = "zhk";
 
     private static final String TAG = Lg.makeLogTag(RouteUtils.class);
 

@@ -10,6 +10,7 @@
     <application
         android:name=".common.RoleApplication"
         android:allowBackup="true"
+        android:largeHeap="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppStyle"
@@ -22,7 +23,19 @@
             </intent-filter>
         </activity>
         <activity android:name=".login.LoginActivity" />
-        <activity android:name=".pm.MainActivity"></activity>
+        <activity android:name=".pm.MainActivity"/>
+
+        <activity android:name="com.nearor.commonui.ativity.ForwardActivity"
+                android:label="app_forward"
+                android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="zhk"/>
+            </intent-filter>
+
+        </activity>
     </application>
 
 </manifest>

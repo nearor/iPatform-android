@@ -33,14 +33,6 @@ class APIServiceConvertFactory extends Converter.Factory {
     }
 
     @Override
-    public Converter<?, RequestBody> requestBodyConverter(Type type, Annotation[] parameterAnnotations,
-                                                          Annotation[] methodAnnotations, Retrofit retrofit)
-    {
-        TypeAdapter<?> adapter = gson.getAdapter(TypeToken.get(type));
-        return new APIRequestConverter<>(gson, adapter);
-    }
-
-    @Override
     public Converter<ResponseBody, ?> responseBodyConverter(Type type, Annotation[] annotations,
                                                             Retrofit retrofit) {
         TypeToken typeToken = TypeToken.get(type);
@@ -51,4 +43,14 @@ class APIServiceConvertFactory extends Converter.Factory {
             return new APIResponseConverter<>(adapter, type);
         }
     }
+
+    @Override
+    public Converter<?, RequestBody> requestBodyConverter(Type type, Annotation[] parameterAnnotations,
+                                                          Annotation[] methodAnnotations, Retrofit retrofit)
+    {
+        TypeAdapter<?> adapter = gson.getAdapter(TypeToken.get(type));
+        return new APIRequestConverter<>(gson, adapter);
+    }
+
+
 }

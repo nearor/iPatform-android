@@ -25,12 +25,15 @@ class APICallAdapterFactory extends CallAdapter.Factory {
                     "MyCall must have generic type (e.g., MyCall<ResponseBody>)");
         }
         final Type responseType = Utils.getSingleParameterUpperBound((ParameterizedType) returnType);
+
         return new CallAdapter<APICall<?>>() {
-            @Override public Type responseType() {
+            @Override
+            public Type responseType() {
                 return responseType;
             }
 
-            @Override public <R> APICall<R> adapt(Call<R> call) {
+            @Override
+            public <R> APICall<?> adapt(Call<R> call) {
                 return new APICallAdapter<>(call);
             }
         };

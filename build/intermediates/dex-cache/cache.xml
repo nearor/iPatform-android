@@ -2,151 +2,95 @@
 <items version="2" >
 
     <item
-        jar="/Users/Nearor/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/gson-2.4_9c6922696a4f7cd740a8480545d7242c3e40bdf8.jar" />
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.2.1_cd531dfe55c9a68e1846de731c8d8f6381c6b11c.jar" />
     </item>
     <item
-        jar="/Users/Nearor/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jar="/Users/Nearor/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/okio-1.8.0_767f11ccb8d4628cbc39dad3ad0397af10156ead.jar" />
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4_2116a621600c7cff3ddab2211f707733167733e5.jar" />
     </item>
     <item
-        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.bugtags.library/bugtags-lib/1.2.7/jars/classes.jar"
+        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.9.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="a37afc78339da52676e477be1eac98f5290a8f38">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.bugtags.library-bugtags-lib-1.2.7_6c09cd7b5db054efae26ad8f83f47750839f1682.jar" />
+        sha1="39bd9f893c75eac9e76559cc4e96af6e417afdc5">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.9.0_227f6c8102a9f35a0fa007b5e2f581a69abeaa15.jar" />
     </item>
     <item
-        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/iPatform-android/framework/unspecified/jars/classes.jar"
+        jar="/Users/Nearor/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="0849be5b183c11a04cfc83cec529eaf4ed55a2e4">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/iPatform-android-framework-unspecified_e5a51b44ae4505235ac060bbb39983f3c21a6b4c.jar" />
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.1.0_3bbb675e49c19f2de5bd833193b84ae05bbcff47.jar" />
     </item>
     <item
-        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.9.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_176092a4d7744c72642f3fd251ed272138d28475.jar" />
-    </item>
-    <item
-        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_58bc9b01bd1e0dcab4fbd22310e48857107316ac.jar" />
-    </item>
-    <item
-        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.joanzapata.pdfview/android-pdfview/1.0.4/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="df559ab8a9d5d44cf0a49dbb2be402637b90ba90">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.joanzapata.pdfview-android-pdfview-1.0.4_dbf7a127c9122b69e5f78fc0ca2c4a63ea449f27.jar" />
-    </item>
-    <item
-        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/iPatform-android/commonui/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5ac197f3fa8418bfbbe91271ff873a47356b01b3">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/iPatform-android-commonui-unspecified_ce3aa62bbb5d73e1f9c359ffd9e0eff289a711e2.jar" />
+        sha1="ca51025f4a58fc7fb6cfaa85e7d09b7ae47e6187">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-0.9.0_9cbd25d5b3b7ebd98d3cf88bfcf902b18a812c63.jar" />
     </item>
     <item
         jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/iPatform-android/common/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="395eada74af95feb982969a164346a3578e1a8ca">
+        sha1="d4b2652475925439aca40e51035800586bc5e1f9">
         <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/iPatform-android-common-unspecified_297577dcefe1f7d0afe610ec16d75c25710eef1f.jar" />
     </item>
     <item
-        jar="/Users/Nearor/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jar="/Users/Nearor/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0_43151375d129dcdf028a4d6c1949abf8c48d38b7.jar" />
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/library-2.4.0_3aa114e8f2b59d180496979a9a7919534609e2ee.jar" />
     </item>
     <item
-        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/iPatform-android/framework/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_09ccfdf71c1eae224459072c5db5b427129e721e.jar" />
+        sha1="d00a189ffca6911f4729d4eecb6f9cba9037f3f4">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/iPatform-android-framework-unspecified_e5a51b44ae4505235ac060bbb39983f3c21a6b4c.jar" />
     </item>
     <item
-        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/iPatform-android/commonui/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.android.support-multidex-1.0.1_b085e467917096ee2f48ce80fcc60dd60d131c90.jar" />
+        sha1="06074be9cb17e2dd17d188cb74a89ff982625dd5">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/iPatform-android-commonui-unspecified_ce3aa62bbb5d73e1f9c359ffd9e0eff289a711e2.jar" />
     </item>
     <item
-        jar="/Users/Nearor/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.9.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_aae262476578bad1e1063ebcce2701f81d1eccee.jar" />
+        sha1="4ee95617ab850030c51486d02bc9d207b14419c6">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.9.0_43147a5ab99867b063f2aeda33b9f3003ca972fb.jar" />
     </item>
     <item
-        jar="/Users/Nearor/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jar="/Users/Nearor/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0_80bcba4da1d2a1f5002420ad5627c0f000a5a42b.jar" />
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/rxjava-1.1.6_2849e3ebf70ed810a766cc710d86a5498f2ed67a.jar" />
     </item>
     <item
-        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.9.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_76c4ecbc1f2c0c7ae4e50e2b2965440e8a7ea886.jar" />
+        sha1="57528b5deee77bfa2188fc279fd45066366f17f5">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.9.0_f690e9ed857c69e07184f40fdf30994b4808301f.jar" />
     </item>
     <item
-        jar="/Users/Nearor/.gradle/caches/modules-2/files-2.1/de.greenrobot/greendao/2.0.0/5f49dd477c1621dfaf0f7fe5d755fe4f07526af2/greendao-2.0.0.jar"
+        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.9.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="5f49dd477c1621dfaf0f7fe5d755fe4f07526af2">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/greendao-2.0.0_4ea06e0b56e8be2455299ff7cde35b5302cd82f9.jar" />
-    </item>
-    <item
-        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/se.emilsjolander/stickylistheaders/2.7.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="3bdf77dbe58e0ec53a0178de532372e7c00859b9">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/se.emilsjolander-stickylistheaders-2.7.0_851eb6dda77e0c2db463efd110e68ed6c851deac.jar" />
-    </item>
-    <item
-        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.makeramen/roundedimageview/2.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="814fc0c3ec69a944add398217d90077301501a74">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.makeramen-roundedimageview-2.2.1_224d1d2059ce1b045e39bd1efbc7415eabfbb848.jar" />
-    </item>
-    <item
-        jar="/Users/Nearor/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.4/dd9eeb557650c4ad7394df23f0f5cf27a7cfc697/universal-image-loader-1.9.4.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.4_4a892cdb54df7922cac73bf2d6fb6cdfe91cf23c.jar" />
-    </item>
-    <item
-        jar="/Users/Nearor/iPatform-android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_4c8dbbd3c6da07b4302313e86f903e405ff8b5a1.jar" />
-    </item>
-    <item
-        jar="/Users/Nearor/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_7f7f80592900c63e62c50a0b4efd6b40bff0efb0.jar" />
+        sha1="3158c15bb0ae97575debdb40cfcd8f0f9f244526">
+        <dex dex="/Users/Nearor/iPatform-android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-0.9.0_7c73b756018a6381811aa517878db04cf3b6465d.jar" />
     </item>
 
 </items>

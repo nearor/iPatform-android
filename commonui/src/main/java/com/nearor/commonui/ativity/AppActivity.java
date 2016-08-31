@@ -20,6 +20,7 @@ import retrofit2.Call;
  */
 public class AppActivity extends AppCompatActivity implements ICallManager{
 
+    public static final String ACTION_EXIT = "action_exit";
     private static final String TAG = Lg.makeLogTag(AppActivity.class);
 
     private List<Call> mNetworkCalls = new ArrayList<>();
@@ -39,6 +40,12 @@ public class AppActivity extends AppCompatActivity implements ICallManager{
 
     }
 
+
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
 
     public void startModule(String module){
         startModule(module,"");

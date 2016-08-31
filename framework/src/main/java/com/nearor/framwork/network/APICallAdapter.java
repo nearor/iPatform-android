@@ -11,8 +11,6 @@ import java.util.concurrent.Executor;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import retrofit2.Retrofit;
-
 
 /**
  * {@link retrofit2.Call} to {@link APICall}
